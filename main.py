@@ -16,7 +16,7 @@ class alerts:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-TOKEN = '2003590639:AAHZjxZrXc8ZoAYW2_RvOIlwfmJ3xE4bkt8' 
+TOKEN = '2011720691:AAEwhcfs0q-ooOMYxljR0mmUbA826B-12X0' 
 print("Идет запуск бота... ")
 print(alerts.OKCYAN + "Пожалуйста, подождите!" + alerts.ENDC)
 url = "https://google.com"
