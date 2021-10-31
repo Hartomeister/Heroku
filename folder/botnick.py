@@ -1,9 +1,10 @@
 import telebot
 import types
+import os
 from nickname_generator import generate
 # print(generate())
 
-bot = telebot.TeleBot("2079141297:AAHtys-DKnV5FnXTV50x1vPvrjon4ENOLcs")
+bot = os.environ(telebot.TeleBot(TOKEN))
 print('bot started')
 
 @bot.message_handler(commands=['start'])
