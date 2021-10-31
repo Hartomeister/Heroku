@@ -1,5 +1,4 @@
 import telebot
-import types
 import os
 from nickname_generator import generate
 # print(generate())
